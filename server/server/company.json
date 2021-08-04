@@ -1,0 +1,154 @@
+[
+ {
+  "organization": "node ninja",
+  "createdAt": "2020-08-12T19:04:55.455Z",
+  "updatedAt": "2020-08-12T19:04:55.455Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "id": 1,
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 2,
+  "organization": "andela",
+  "createdAt": "2021-08-03T20:52:13.678Z",
+  "updatedAt": "2021-08-03T20:52:13.678Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 3,
+  "organization": "andela",
+  "createdAt": "2021-08-03T20:56:21.237Z",
+  "updatedAt": "2021-08-03T20:56:21.237Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 4,
+  "organization": "andela",
+  "createdAt": "2021-08-03T20:58:54.443Z",
+  "updatedAt": "2021-08-03T20:58:54.443Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 5,
+  "organization": "andela",
+  "createdAt": "2021-08-03T21:00:10.384Z",
+  "updatedAt": "2021-08-03T21:00:10.384Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 6,
+  "organization": "andela",
+  "createdAt": "2021-08-03T21:01:45.943Z",
+  "updatedAt": "2021-08-03T21:01:45.943Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 7,
+  "organization": "andela",
+  "createdAt": "2021-08-03T21:08:01.527Z",
+  "updatedAt": "2021-08-03T21:08:01.527Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ },
+ {
+  "id": 8,
+  "organization": "andela",
+  "createdAt": "2021-08-03T21:08:17.262Z",
+  "updatedAt": "2021-08-03T21:08:17.262Z",
+  "products": [
+   "developers",
+   "pizza"
+  ],
+  "marketValue": "90%",
+  "address": "sangotedo",
+  "ceo": "cn",
+  "country": "Taiwan",
+  "noOfEmployees": 2,
+  "employees": [
+   "james bond",
+   "jackie chan"
+  ]
+ }
+]
