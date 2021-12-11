@@ -18,15 +18,16 @@ const server: Server = http.createServer((req: IncomingMessage, res: ServerRespo
       console.log("server " + id);
    getCompany(req,res,id);
   }else if(req.url === '/api/companys' && req.method === 'POST'){
+   
    createCompany(req,res);
   }else if(data.match(/\/api\/companys\/([0-9]+)/) && req.method === 'PUT'){
 
-      const id = data.split('/')[3];
+      const id = +(data.split('/')[3]);
       console.log(id);
       updateCompany(req,res,id);
   }else if(data.match(/\/api\/companys\/([0-9]+)/) && req.method === 'DELETE'){
 
-      const id = data.split('/')[3];
+      const id = +(data.split('/')[3]);
       console.log(id);
       deleteCompany(req,res,id);
   }else{

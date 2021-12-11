@@ -16,7 +16,7 @@ const server: Server = http.createServer(
     }
   }
 );
-server.listen(3001, ()=>{
+server.listen(5001, ()=>{
   console.log("server is running");
 });
 
@@ -35,8 +35,10 @@ async function getWebsitedata(req: IncomingMessage, res: ServerResponse){
     images.push(image)
     
 });
-  const description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content')  || null    
+  const description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content')  || null  
+  
   const title= $('meta[property="og:title"]').attr('content') || $('meta[name="title"]').attr('content') || $('title').text() || null
+
       const result = {
           Title: title,
           Description: description,

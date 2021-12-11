@@ -17,7 +17,7 @@ const server = http_1.default.createServer((req, res) => {
         res.end('Url not scrapable!!');
     }
 });
-server.listen(3001, () => {
+server.listen(5001, () => {
     console.log("server is running");
 });
 async function getWebsitedata(req, res) {
@@ -25,7 +25,7 @@ async function getWebsitedata(req, res) {
         let url = await getUrlDetails(req);
         url = JSON.parse(url);
         let bodyPage = await got(url);
-        console.log("pagebody" + bodyPage);
+        //console.log("pagebody" +  bodyPage)
         let body = bodyPage.body;
         const $ = cheerio.load(body);
         let images = [];
@@ -35,6 +35,8 @@ async function getWebsitedata(req, res) {
         });
         const description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content') || null;
         const title = $('meta[property="og:title"]').attr('content') || $('meta[name="title"]').attr('content') || $('title').text() || null;
+        console.log(" or:title" + $('meta[property="og:title"]').attr('content'));
+        console.log("title" + $('title').text());
         const result = {
             Title: title,
             Description: description,
